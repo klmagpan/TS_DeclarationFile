@@ -1,4 +1,4 @@
-# TS_Fundamentals
+# TS_DeclarationFile
 Creating a Type Declaration File in TypeScript
 
 ## Technologies Used

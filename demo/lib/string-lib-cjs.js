@@ -4,7 +4,10 @@ const suffixes = new Map([
   ['3', 'rd'],
 ]);
 
-export default stringLib = {
+// Instead of using export keyword, assigns an object
+// containing the library to module.exports, which is how
+// code is exported in CommonJS 
+module.exports = {
   version: '1.0.0',
   ordinalize: (ordinal) => {
     const o = '' + ordinal;

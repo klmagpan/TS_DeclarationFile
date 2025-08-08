@@ -1,20 +1,18 @@
 /**
  * @name stringLib
- * @description Simple CommonJS string utilities
+ * @description Simple AMD string utilities
  */
-declare module './string-lib-cjs';
+declare module './string-lib-amd';
 
 /**
  * @name version
  * @description The version of stringLib
  */
-export const version: '1.0.0'; // const = "readonly"
+export const version: '1.0.0';
 
 /**
  * ordinalize
  * @param {string|number} ordinal The number to ordinalize
  * @returns {string}
  */
-
-// Only provide funciton signature types (parameter types and return type)
 export function ordinalize(ordinal: string | number): string;

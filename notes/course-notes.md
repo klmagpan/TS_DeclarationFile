@@ -65,4 +65,5 @@ built-in objects (ie. Prototype)
 ## Publishing Declaration Files
 - First compile: tsc
 - npm publish –access public
-- Can be installed to be used to another project
+- Can be installed to be used to another project using npm install @...
+	- It should be available for use after instantiating it

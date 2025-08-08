@@ -1,7 +1,7 @@
 # TS_DeclarationFile
 Creating a Type Declaration File in TypeScript
 
-## Branch: Creating a Declaration File for an AMD Library
+## Branch: Creating a Declaration File for an UMD Library
 
 ## Technologies Used
 TypeScript

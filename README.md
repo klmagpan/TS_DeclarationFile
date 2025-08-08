@@ -1,6 +1,6 @@
 # TS_DeclarationFile
 Creating a Type Declaration File in TypeScript
-## Branch: Creating Declaration Files with the Compiler
+## Branch: Creating Declaration Files for a JavaScript Project
 
 ## Technologies Used
 TypeScript

@@ -1,3 +1,4 @@
+// TS5055: Cannot write file because it would overwrite input file
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -9,9 +10,9 @@
     "skipLibCheck": true,
     "outDir": "./dist",
     "declaration": true, // Creates d.ts file alongside compile JS file
-    "allowJs": true,
-    "emitDeclarationOnly": true, 
-    "declarationDir": "./lib",
+    "allowJs": true, 
+    "emitDeclarationOnly": true, // Only declaration is emitted, since it doesn't need to emit a JS file
+    "declarationDir": "./lib", // Have declaration file emitted alongside existing JS file
   },
   "exclude": ["./dist", "./consumers"],
 }

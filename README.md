@@ -1,7 +1,7 @@
 # TS_DeclarationFile
 Creating a Type Declaration File in TypeScript
 
-## Branch: Creating a Declaration File for an Object-Extending Library
+## Branch: Creating a Declaration File for an ESM Library
 
 ## Technologies Used
 TypeScript
